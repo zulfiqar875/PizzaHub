@@ -1,28 +1,37 @@
 <!-- Centered banner / logo (optional) -->
-<p align="center" style="font-family:'Poppins',sans-serif; font-size:48px; font-weight:700;">
+<p align="center">
   <span style="
-    background-color:#000;
+    display:inline-block;
+    background-color:#000000;
     color:#ff0000;
-    padding:10px 25px;
+    padding:12px 28px;
     border:3px solid #ff0000;
     border-right:none;
+    font-size:42px;
+    font-weight:700;
+    font-family:Arial, Helvetica, sans-serif;
     border-radius:10px 0 0 10px;
-    display:inline-block;
+    letter-spacing:2px;
   ">
     PIZZA
   </span>
   <span style="
+    display:inline-block;
     background-color:#ff0000;
-    color:#000;
-    padding:10px 25px;
+    color:#000000;
+    padding:12px 28px;
     border:3px solid #ff0000;
     border-left:none;
+    font-size:42px;
+    font-weight:700;
+    font-family:Arial, Helvetica, sans-serif;
     border-radius:0 10px 10px 0;
-    display:inline-block;
+    letter-spacing:2px;
   ">
     HUB
   </span>
 </p>
+
 
 
 <h1 align="center">🍕 Pizza Hub — Full Stack Online Ordering System</h1>
