@@ -1,8 +1,29 @@
 <!-- Centered banner / logo (optional) -->
-<p align="center">
-  <!-- Put your banner.png in /docs or change the path -->
-  <img src="docs/banner.png" alt="Pizza Hub" width="800">
+<p align="center" style="font-family:'Poppins',sans-serif; font-size:48px; font-weight:700;">
+  <span style="
+    background-color:#000;
+    color:#ff0000;
+    padding:10px 25px;
+    border:3px solid #ff0000;
+    border-right:none;
+    border-radius:10px 0 0 10px;
+    display:inline-block;
+  ">
+    PIZZA
+  </span>
+  <span style="
+    background-color:#ff0000;
+    color:#000;
+    padding:10px 25px;
+    border:3px solid #ff0000;
+    border-left:none;
+    border-radius:0 10px 10px 0;
+    display:inline-block;
+  ">
+    HUB
+  </span>
 </p>
+
 
 <h1 align="center">🍕 Pizza Hub — Full Stack Online Ordering System</h1>
 
