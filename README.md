@@ -1,6 +1,6 @@
 🍕 Pizza Hub — Full Stack Online Ordering System
 
-Author: Zulfiqar BHi
+Author: SkillUp
 Stack: React (Frontend) · PHP (Backend) · MySQL (Database) · Bootstrap (UI)
 
 🧠 Project Motivation
