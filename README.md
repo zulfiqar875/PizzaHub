@@ -104,21 +104,42 @@
 
 ---
 
-## 🚀 Quick Start
+## 🚀 How to Run Pizza Hub Project (Step-by-Step)
 
-<details>
-<summary><b>Backend (PHP + MySQL)</b></summary>
+### 🧩 Prerequisites
+Before starting, make sure you have these installed:
+1. **Node.js** (v16 or later) → [Download here](https://nodejs.org/)
+2. **XAMPP** (includes PHP 8+ and MySQL) → [Download here](https://www.apachefriends.org/)
+3. **Git** (optional, for cloning) → [Download here](https://git-scm.com/)
 
-```bash
-# Place backend under XAMPP htdocs
-C:\xampp\htdocs\pizzahub-api\
+---
 
-# Start Apache + MySQL (XAMPP Control Panel)
+### ⚙️ Step 1 — Setup Backend (PHP + MySQL)
 
-# Create DB in phpMyAdmin → pizzahub
-# Import backend/pizzahub.sql
+1. Open **XAMPP Control Panel** → start:
+   - ✅ **Apache**
+   - ✅ **MySQL**
 
-# Test (should return JSON error, not 404)
-http://localhost:88/pizzahub-api/public/register.php
+2. Copy the backend folder into your XAMPP `htdocs` directory:
+
+
+3. Open **phpMyAdmin** at [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
+
+4. Create a new database:
+
+5. Import the SQL file:
+
+6. Update your DB credentials in:
+Example:
+```php
+$mysqli = new mysqli("localhost", "root", "", "pizzahub");
+$mysqli->set_charset("utf8mb4");
+http://localhost/pizzahub-api/public/register.php
+{"error": "Method not allowed"}
+
+```
+npm run dev
+http://localhost:5173
+
 
 
